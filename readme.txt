@@ -3,7 +3,8 @@
 #｛测试是否修改｝
 #-----------2019-6-3-----------
 #Hello World!
-printf("Hello wordld!");
+printf("Hello world!");
 system("pause");
 begin
 end.
+over work.
