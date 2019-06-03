@@ -7,4 +7,6 @@ printf("Hello world!");
 system("pause");
 begin
 end.
-over work.
+==================
+GIT中ssh.exe要在注册表中设置GIT_SSH的值。值为空时，git仍在调用小乌龟的Plink.exe
+git config --global user.name和git config --global user.email似乎顺序不对也添加不上
