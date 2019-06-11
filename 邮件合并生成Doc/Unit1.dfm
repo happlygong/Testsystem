@@ -1,0 +1,165 @@
+object Form1: TForm1
+  Left = 205
+  Top = 142
+  Width = 732
+  Height = 580
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = #23458#25143#21644#21457#36135#21333#21512#24182#65306'Excel+Word  '#29983#25104'Word'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 264
+    Top = 93
+    Width = 3
+    Height = 13
+    Transparent = True
+  end
+  object RxGIFAnimator1: TRxGIFAnimator
+    Left = 600
+    Top = 88
+    Width = 20
+    Height = 20
+    Animate = True
+    FrameIndex = 6
+    Image.Data = {
+      6E03000047494638396114001400B30800F87600FF9332C66200B95C00A34E00
+      EA7800D56A00FF8F16FFFFFF0000000000000000000000000000000000000000
+      0021FF0B4E45545343415045322E30030100000021F904050A0008002C000000
+      001400140000045310C949ABBD8810CCB5E6D33048DE8604C1258AA489A2D63A
+      566F1ACF160CEE9420F087C3C4E703058312E28F7314269746278F6730600080
+      4BB56AC1622D5B2BA2509078B36031996C4683D6E5E9842D9747000021F90405
+      0A0008002C010001001200120000044E10C929C7A0385B9BA910D5261104F67D
+      E14896D309622BDBBE19D9DD9D61E05310203A1DCFE70BEE70C49F9087F03199
+      85C2ED70C044A3192A95729522000089B6CAF582C162F2ED1C7E4AD09D080021
+      F904050A0008002C010001001200120000044E10C92985A0385B9BA931D5260D
+      03F67DE14896D309622BDBBE19D9DD5D51E01341203A1DCFE70BEE70C49F9087
+      F0319900C02D10C044A3192A957295220E0789B6CAF582C162F2ED1C7E4AD09D
+      080021F904050A0008002C010001001200120000044E10C9298DA1385B9B6929
+      D5260902F67DE14896D309622BDBBE19D9DD1D00E0D330203A1DCFE70BEE70C4
+      9F9087F0319987C38D40C044A3192A95729522020189B6CAF582C162F2ED1C7E
+      4AD09D080021F904050A0008002C010001001200120000044E10C9294BA1385B
+      9B2900D5261906F67DE14896D309622BDBBE19D9DDDD71E09320203A1DCFE70B
+      EE70C49F9087F0319981C06D30C044A3192A95729522080489B6CAF582C162F2
+      ED1C7E4AD09D080021F904050A0008002C010001001200120000044E10C92901
+      A0385B9BE939D5261505F67DE14896D309622BDBBE19D9DD5D10E09361203A1D
+      CFE70BEE70C49F9087F0319904C24D20C044A3192A95729522060389B6CAF582
+      C162F2ED1C7E4AD09D080021F904050A0008002C010001001200120000044E10
+      C929CFA1385B9B6908D5260100F67DE14896D309622BDBBE19D9DD1D41E05351
+      203A1DCFE70BEE70C49F9087F0319983C1CD60C044A3192A95729522040289B6
+      CAF582C162F2ED1C7E4AD09D080021F904090A0008002C010001001200120000
+      044E10C92943A0385B9B2921D5261D07F67DE14896D309622BDBBE19D9DDDD30
+      E01300203A1DCFE70BEE70C49F9087F0319902C1AD50C044A3192A957295220C
+      0689B6CAF582C162F2ED1C7E4AD09D08003B}
+  end
+  object ListBox1: TListBox
+    Left = 8
+    Top = 128
+    Width = 233
+    Height = 409
+    Ctl3D = False
+    ItemHeight = 13
+    ParentCtl3D = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 128
+    Top = 84
+    Width = 100
+    Height = 33
+    Caption = #35835#21462'Excel'#20869#23481
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 432
+    Top = 84
+    Width = 100
+    Height = 33
+    Caption = #21512#24182
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 32
+    Top = 8
+    Width = 545
+    Height = 24
+    Hint = #21487#25302#25918'Excel'#25991#20214#21040#36825#37324
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 32
+    Top = 40
+    Width = 545
+    Height = 24
+    Hint = #21487#25302#25918'Wrod'#25991#20214#21040#36825#37324
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 592
+    Top = 6
+    Width = 105
+    Height = 30
+    Caption = #36873#25321#23458#25143#21015#34920#25991#20214
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 592
+    Top = 39
+    Width = 105
+    Height = 30
+    Caption = #36873#25321#21457#36135#27169#26495#25991#20214
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object ListBox2: TListBox
+    Left = 272
+    Top = 128
+    Width = 433
+    Height = 409
+    Ctl3D = False
+    ItemHeight = 13
+    ParentCtl3D = False
+    TabOrder = 7
+    OnDblClick = ListBox2DblClick
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 160
+    Top = 32
+  end
+  object PrintDialog1: TPrintDialog
+    Options = [poPrintToFile, poPageNums, poSelection, poWarning, poHelp]
+    Left = 432
+    Top = 32
+  end
+end
